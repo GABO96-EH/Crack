@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Birthday Invitation 🎉</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎂 You're Invited!</h1>
+
+    <div id="countdown"></div>
+
+    <button id="playSong">▶️ Play Birthday Song</button>
+    <audio id="birthdayAudio" src="birthday.mp3" preload="auto"></audio>
+
+    <section class="message">
+      <h2>📍 Location:</h2>
+      <p>123 Celebration Street, Partyville</p>
+
+      <h2>💌 A Message for You:</h2>
+      <p>We're so excited to celebrate this special day with you! Come ready to party, dance, and make unforgettable memories!</p>
+
+      <h2>🕒 Itinerary:</h2>
+      <ul>
+        <li>5:00 PM – Guests Arrive</li>
+        <li>5:30 PM – Welcome Toast</li>
+        <li>6:00 PM – Dinner</li>
+        <li>7:00 PM – Cake Cutting</li>
+        <li>8:00 PM – Dance Floor Opens</li>
+      </ul>
+
+      <h2>🎶 Suggest a Song:</h2>
+      <form id="songSuggestionForm">
+        <input type="text" placeholder="Song title or YouTube link" required />
+        <button type="submit">Submit</button>
+      </form>
+
+      <h2>🙏 Thank You!</h2>
+      <p>Your presence means the world to us. Let’s make this birthday unforgettable together!</p>
+    </section>
+
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeI5xQMh6iIKO2m05_RZF1lAfC4lPjD3fgVkjM9avCGEDzliw/viewform?usp=dialog" target="_blank" class="rsvp-button">📩 RSVP Now</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
