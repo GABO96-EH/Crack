@@ -1,6 +1,6 @@
 // Countdown Timer
 const countdownElement = document.getElementById('countdown');
-const eventDate = new Date('2025-10-10T17:00:00'); // Set your birthday event date/time
+const eventDate = new Date('2025-11-08T17:00:00'); // 
 
 function updateCountdown() {
   const now = new Date();
@@ -21,15 +21,6 @@ function updateCountdown() {
 
 setInterval(updateCountdown, 1000);
 
-// Play Song
-document.getElementById('playSong').addEventListener('click', () => {
-  const audio = document.getElementById('birthdayAudio');
-  audio.play();
-});
 
-// Fake submit for song suggestion (can later be hooked into something like Firebase or Google Sheets)
-document.getElementById('songSuggestionForm').addEventListener('submit', (e) => {
-  e.preventDefault();
-  alert("🎵 Thank you for your suggestion!");
-  e.target.reset();
-});
+
+
